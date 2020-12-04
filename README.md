@@ -1,6 +1,7 @@
 ## Coupling Daisy World to Lotka Volterra!
 This is where I would write the report. Above would be my code. I would hyperlink to code throughout the report to make it easy to see what code produced which graphs. For example, [here is a link to the Lotka Volterra code I've uploaded already](https://github.com/austinbennysmith/EEPS_250/blob/main/Lotka_alone.m)
 
+Show that 3-level LV model isn't working due to some kind of iteration issue.
 
 A few sources:
 http://math.bd.psu.edu/faculty/jprevite/mathmag243-255.pdf
