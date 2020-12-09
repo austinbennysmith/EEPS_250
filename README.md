@@ -14,3 +14,5 @@ https://link.springer.com/article/10.1007%2Fs12043-020-1942-9
 
 
 In the 3 level program: the reason the cycle slows down over time is that the herbivore death rate is ONLY tied to the number of carnivores, so if the number of carnivores crashes low enough the recovery is extremely slow
+
+G=0.9 is more helpful than G=5 in the level 3 program because it allows one to see the carnivore fluctuations. Or at least lower G. See if lower G works for level 2 as well for consistency. It seems that in level 3 in the range of luminosities creating a Lotka-Volterra pattern, the time scale can be increased to *10^4 to get a pattern that is qualitatively similar to that observed in level 2 for the Lotka-Volterra-esque luminosities. However there is a time lag and a slowdown, and showing time at *10^1 time scale may be helpful to demonstrate this.
