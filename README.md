@@ -1,6 +1,9 @@
 ## Coupling Daisy World to Lotka Volterra!
 This is where I would write the report. Above would be my code. I would hyperlink to code throughout the report to make it easy to see what code produced which graphs. For example, [here is a link to the Lotka Volterra code I've uploaded already](https://github.com/austinbennysmith/EEPS_250/blob/main/Lotka_alone.m)
 
+One unrealistic aspect of LV models outlined here: https://vlab.amrita.edu/?sub=3&brch=67&sim=185&cnt=1
+"Each predator eats a constant proportion of the prey population per year; In other words, doubling the prey population will double the number eaten per predator, regardless of how big the prey population is" - no satiation
+
 Show that 3-level LV model isn't working due to some kind of iteration issue.
 
 A few sources:
