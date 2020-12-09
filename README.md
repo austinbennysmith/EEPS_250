@@ -11,3 +11,6 @@ http://math.bd.psu.edu/faculty/jprevite/mathmag243-255.pdf
 https://sites.math.washington.edu/~morrow/336_16/2016papers/lalith.pdf
 
 https://link.springer.com/article/10.1007%2Fs12043-020-1942-9
+
+
+In the 3 level program: the reason the cycle slows down over time is that the herbivore death rate is ONLY tied to the number of carnivores, so if the number of carnivores crashes low enough the recovery is extremely slow
