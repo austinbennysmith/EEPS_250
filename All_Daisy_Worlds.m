@@ -52,9 +52,9 @@ hold on
 plot(L_list, Cblast, '-bo')
 hold on
 plot(L_list, Cglast, '-gx')
-title('Equilibrium Surface Fractions vs. Luminosity')
-xlabel('Luminosity')
-ylabel('Surface Fractions')
+title('Equilibrium Surface Fractions vs. Luminosity', 'FontSize', 40)
+xlabel('Luminosity', 'Fontsize', 40)
+ylabel('Surface Fractions', 'FontSize', 40)
 legend('White daisies', 'Black daisies', 'Bare Ground')
 % subplot(1, 2, 2)
 % yyaxis left
