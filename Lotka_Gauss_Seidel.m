@@ -9,9 +9,8 @@ B = 0.1; % Predation rate
 F = 1.5; % Death rate for predator
 G = 0.03; % Growth rate for predator
 x(1) = 30;
-y(1) = 3; 
+y(1) = 3;
 
-% Forward Euler (unstable):
 for i=1:Niter
       time(i+1) = dt*i;
      x(i+1) = dt*(P*x(i)-B*x(i)*y(i))+x(i);
