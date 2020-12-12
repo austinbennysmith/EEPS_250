@@ -8,9 +8,8 @@ P = 1; % Growth rate for prey
 B = 0.1; % Predation rate
 F = 1.5; % Death rate for predator
 G = 0.03; % Growth rate for predator
-x(1) = 30; % 2 prey individuals per unit area
-y(1) = 3; % 1 predator per unit area
-% Z = 0.3 % extra prey death rate
+x(1) = 30;
+y(1) = 3; 
 
 % Forward Euler (unstable):
 for i=1:Niter
@@ -20,17 +19,17 @@ for i=1:Niter
 end
 
 subplot(1, 2, 1)
-plot(time, x)
+plot(time, x, 'Linewidth', 2)
 hold on
-plot(time, y)
+plot(time, y, 'Linewidth', 2)
 % title('Populations of predator and prey per unit area')
-xlabel('Time')
-ylabel('Number per unit area')
-legend('Number of Prey', 'Number of Predator')
-title('Prey and Predator over Time')
+xlabel('Time', 'Fontsize', 40)
+ylabel('Number per unit area', 'Fontsize', 40)
+legend('Number of Prey', 'Number of Predator', 'Fontsize', 20)
+title('Prey and Predator over Time', 'Fontsize', 40)
 xlim([0 50])
 subplot(1, 2, 2)
-plot(x, y)
-xlabel('Number of Prey')
-ylabel('Number of Predator')
-title('Prey/Predator Phase Space')
+plot(x, y, 'Linewidth', 2)
+xlabel('Number of Prey', 'Fontsize', 40)
+ylabel('Number of Predator', 'Fontsize', 40)
+title('Prey/Predator Phase Space', 'Fontsize', 40)
